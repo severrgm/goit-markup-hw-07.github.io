@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding-bottom: 94px;
+}
+
+img {
+  display: block;
+}
