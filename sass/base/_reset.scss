@@ -1,12 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.list {
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.link {
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -17,4 +17,28 @@ section {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  max-width: 696px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--secondary-title-color);
+}
+
+h2,
+h3,
+p {
+  margin: 0px 0px 0px 0px;
 }

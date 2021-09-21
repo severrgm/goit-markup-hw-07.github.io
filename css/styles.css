@@ -140,22 +140,6 @@
   background-position: center;
 }
 
-h1 {
-  max-width: 696px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: var(--secondary-title-color);
-}
-
 .btn {
   color: #ffffff;
   background-color: var(--accent-color);
@@ -421,11 +405,6 @@ h1 {
 }
 
 /*----FOOTER------*/
-
-p {
-  margin: 0px 0px 0px 0px;
-}
-
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -834,6 +813,7 @@ h3 {
 .check-link {
   white-space: pre;
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .check-label {
