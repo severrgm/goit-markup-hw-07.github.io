@@ -1,0 +1,56 @@
+.command-section {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+}
+
+.command-list {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.command-list .command-item + .command-item {
+  margin-left: 30px;
+}
+.command-item {
+  background-color: #ffffff;
+  width: 270px;
+}
+.command-header {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.command-item-header {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.command-item-text {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.command-item-member {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.command-socials {
+  display: flex;
+  justify-content: center;
+}
