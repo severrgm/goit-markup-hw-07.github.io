@@ -9,10 +9,9 @@
 .work-item {
   position: relative;
   width: 370px;
-}
-
-.work-list .work-item + .work-item {
-  margin-left: 30px;
+  .work-list & + & {
+    margin-left: 30px;
+  }
 }
 
 .work-header {

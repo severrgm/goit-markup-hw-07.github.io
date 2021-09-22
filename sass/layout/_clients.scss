@@ -22,25 +22,22 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-item:hover .clients-icon,
-.clients-item:focus .clients-icon {
-  fill: var(--accent-color);
-}
-
-.clients-item:hover,
-.clients-item:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-item:not(:last-child) {
-  margin-right: 30px;
+  .clients-item:hover &,
+  .clients-item:focus & {
+    fill: var(--accent-color);
+  }
 }
 
 .clients-link {

@@ -9,12 +9,12 @@
   margin-bottom: 0px;
 }
 
-.command-list .command-item + .command-item {
-  margin-left: 30px;
-}
 .command-item {
   background-color: #ffffff;
   width: 270px;
+  .command-list & + & {
+    margin-left: 30px;
+  }
 }
 .command-header {
   margin-top: 0px;
