@@ -47,9 +47,6 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-socials {
-  display: flex;
-}
 .footer-text {
   margin-bottom: 20px;
   font-family: Roboto;
@@ -62,26 +59,8 @@
   color: #ffffff;
 }
 
-.footer-socials-box {
-  display: block;
-  margin-left: 70px;
-}
-.footer-socials-item {
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
-}
-
 .address-container {
   padding-right: 0px;
-}
-
-.footer-socials-icon {
-  fill: #ffffff;
 }
 
 .form-box {

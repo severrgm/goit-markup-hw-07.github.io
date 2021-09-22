@@ -13,6 +13,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
 
 .header-accent {
@@ -21,13 +22,13 @@
 
 .header-list {
   display: flex;
-  margin-left: 93px;
+
   & .link.current {
     color: var(--accent-color);
   }
 }
 
-.header-item {
+.header-list__item {
   position: relative;
   .header-list & + & {
     margin-left: 50px;
@@ -41,7 +42,7 @@
   background-color: var(--accent-color);
   border-radius: 2px;
 }
-.header-link {
+.header-list__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;

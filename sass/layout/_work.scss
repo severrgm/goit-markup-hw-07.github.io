@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.work-item {
+.work-list__item {
   position: relative;
   width: 370px;
   .work-list & + & {
@@ -25,11 +25,9 @@
   color: var(--main-title-color);
 }
 
-.work-box {
+.work-list__box {
   margin: 0px;
-
   position: absolute;
-
   width: 100%;
   height: 70px;
   font-weight: 700;
