@@ -11,7 +11,6 @@
     content: "";
     margin-bottom: 30px;
     height: 120px;
-
     background-size: contain;
     background-size: 70px 70px;
     background-repeat: no-repeat;
@@ -26,6 +25,7 @@
 .benefits-list__header {
   margin-top: 0px;
   margin-bottom: 10px;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -36,6 +36,7 @@
 .benefits-list__text {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
